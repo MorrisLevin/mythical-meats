@@ -1,0 +1,64 @@
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+body {
+  background-color: rgb(170, 26, 26);
+}
+
+h1 {
+  font-family: "Bebas Neue", serif;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-family: "Bebas Neue", serif;
+  color: rgb(255, 255, 255);
+}
+
+.menu-item a {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Bebas Neue", serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+h3 a {
+    background-color: rgb(226, 179, 124);
+    font-family: "Bebas Neue", serif;
+    color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+p {
+    font-family: "Bebas Neue", serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 180%;
+}
+
+.meat {
+    font-family: "Bebas Neue", serif;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin-top: 2%;
+}
+
+.butcher-images a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.users {
+  font-family: "Bebas Neue", serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  margin-top: 2%;
+}
